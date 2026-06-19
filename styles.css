@@ -1,0 +1,139 @@
+body.dark {
+    background-color:rgb(62, 62, 62);
+    display: grid;
+    transition: 0.3s;
+}
+
+body {
+    background-color:rgb(207, 207, 207);
+    display: grid;
+    transition: 0.3s;
+}
+
+.lesserImg {
+    width: 20%;
+}
+
+.imgLine {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.mainImg {
+    margin-left: 20px;
+    width: 50%;
+    display: inline;
+    border-radius: 15%;
+}
+
+div {
+    margin-top: 50px;
+    margin-left: 35px;
+    
+}
+
+a {
+    margin-left: 20px;
+    font-size: x-large;
+    color: rgb(62, 62, 62);
+    font-family: cursive;
+}
+
+body.dark a {
+    margin-left: 20px;
+    font-size: x-large;
+    color: white;
+    font-family: cursive;
+}
+
+h3 {
+    margin-left: 30px;
+    margin-right: 30px;
+    font-family: cursive;
+    color: rgb(62, 62, 62);
+    font-weight: lighter;
+}
+
+body.dark h3 {
+    margin-left: 30px;
+    margin-right: 30px;
+    font-family: cursive;
+    color: white;
+    font-weight: lighter;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.mode {
+    position: fixed;
+    top: 15px;
+    right: 25px;
+    cursor: pointer;
+    transform: scale(2);
+}
+
+#header {
+    padding: 20px;
+    background-color: #fff0f0;
+    margin-top: 0px;
+}
+
+
+body.dark #header {
+    padding: 20px;
+    background-color: #3a2528;
+    margin-top: 0px;
+}
+
+h1 {
+    margin-left:  35px;
+    margin-right: 30px;
+    font-family: cursive;
+    color: rgb(62, 62, 62);
+    font-weight: lighter;
+}
+
+body.dark h1 {
+    margin-left: 35px;
+    margin-right: 30px;
+    font-family: cursive;
+    color: white;
+    font-weight: lighter;
+}
+
+
+h2 {
+    margin-left: 35px;
+    margin-right: 30px;
+    font-family: cursive;
+    color: rgb(62, 62, 62);
+    font-weight: lighter;
+}
+
+body.dark h2 {
+    margin-left: 35px;
+    margin-right: 30px;
+    font-family: cursive;
+    color: white;
+    font-weight: lighter;
+}
+
+li {
+    margin-left: 35px;
+    margin-right: 30px;
+    font-family: cursive;
+    color: rgb(62, 62, 62);
+    font-weight: lighter;
+}
+
+body.dark li {
+    margin-left: 35px;
+    margin-right: 30px;
+    font-family: cursive;
+    color: white;
+    font-weight: lighter;
+}
